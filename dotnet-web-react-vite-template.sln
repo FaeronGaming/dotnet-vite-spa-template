@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2BF1BFB8-0D7B-462D-B9ED-6F5BDC56827E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{61796D55-E8F5-425F-8B7F-CE3E21C595EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\Web\Web.csproj", "{21D300FD-94FB-48EA-B8CA-7DD6A140E475}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-web-react-vite-template.Web", "src\dotnet-web-react-vite-template\dotnet-web-react-vite-template.Web.csproj", "{AE2B6BB3-CC07-4A08-A827-D1E79F4B4756}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{70DA8583-12A4-4AF4-96EF-8E654ADE84AC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B6C4226E-A0FD-4432-926E-315B0932A430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Tests", "tests\Web.Tests\Web.Tests.csproj", "{B790161C-C7E0-4B22-968B-DE436C3E1DB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-web-react-vite-template.Web.Tests", "tests\dotnet-web-react-vite-template.Web.Tests\dotnet-web-react-vite-template.Web.Tests.csproj", "{566D9EC1-880E-45B9-9F84-C9882EEA4AFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,17 +20,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21D300FD-94FB-48EA-B8CA-7DD6A140E475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21D300FD-94FB-48EA-B8CA-7DD6A140E475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21D300FD-94FB-48EA-B8CA-7DD6A140E475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21D300FD-94FB-48EA-B8CA-7DD6A140E475}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B790161C-C7E0-4B22-968B-DE436C3E1DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B790161C-C7E0-4B22-968B-DE436C3E1DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B790161C-C7E0-4B22-968B-DE436C3E1DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B790161C-C7E0-4B22-968B-DE436C3E1DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2B6BB3-CC07-4A08-A827-D1E79F4B4756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2B6BB3-CC07-4A08-A827-D1E79F4B4756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2B6BB3-CC07-4A08-A827-D1E79F4B4756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2B6BB3-CC07-4A08-A827-D1E79F4B4756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566D9EC1-880E-45B9-9F84-C9882EEA4AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566D9EC1-880E-45B9-9F84-C9882EEA4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566D9EC1-880E-45B9-9F84-C9882EEA4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566D9EC1-880E-45B9-9F84-C9882EEA4AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{21D300FD-94FB-48EA-B8CA-7DD6A140E475} = {2BF1BFB8-0D7B-462D-B9ED-6F5BDC56827E}
-		{B790161C-C7E0-4B22-968B-DE436C3E1DB8} = {70DA8583-12A4-4AF4-96EF-8E654ADE84AC}
+		{AE2B6BB3-CC07-4A08-A827-D1E79F4B4756} = {61796D55-E8F5-425F-8B7F-CE3E21C595EF}
+		{566D9EC1-880E-45B9-9F84-C9882EEA4AFF} = {B6C4226E-A0FD-4432-926E-315B0932A430}
 	EndGlobalSection
 EndGlobal
