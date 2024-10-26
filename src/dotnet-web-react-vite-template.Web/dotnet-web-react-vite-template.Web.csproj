@@ -7,4 +7,7 @@
     <RootNamespace>dotnet_web_react_vite_template.Web</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
 </Project>
