@@ -1,5 +1,6 @@
-import { defineConfig, UserConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig, UserConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import basicSsl from '@vitejs/plugin-basic-ssl';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -7,6 +8,18 @@ export default defineConfig({
   build: {
     outDir: '../wwwroot',
   },
-  plugins: [react()],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://localhost:7276',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
+  plugins: [
+    basicSsl(),
+    react()
+  ],
 }) satisfies UserConfig;
 
