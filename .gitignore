@@ -41,7 +41,9 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+
 wwwroot/
+publish/
 
 # node setup
 .nvmrc
