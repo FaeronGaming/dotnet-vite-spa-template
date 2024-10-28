@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Cleaning repo..."
+git clean -fdx
+
 echo "Uninstalling template..."
 dotnet new uninstall ./
 
