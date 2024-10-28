@@ -2,9 +2,9 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Alex Abenoja",
   "classifications": [ "Web", "React", "Vite", "TypeScript" ],
-  "name": "dotnet-web-react-vite-template",
-  "identity": "dotnet-web-react-vite-template",
-  "shortName": "dotnet-web-react-vite-template",
+  "name": "Vite SPA",
+  "identity": "vite-spa",
+  "shortName": "vite-spa",
   "tags": {
     "language": "C#",
     "type": "project"
