@@ -9,5 +9,12 @@
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "dotnet-web-react-vite-template"
+  "sourceName": "dotnet-web-react-vite-template",
+  "sources": [
+    {
+      "modifiers": [
+        { "exclude": [ ".template.config/**", ".git/**" ] }
+      ]
+    }
+  ]
 }
