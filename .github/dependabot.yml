@@ -1,0 +1,10 @@
+version: 2
+update:
+  - package-ecosystem: "npm"
+    directory: "/"
+  - package-ecosystem: "nuget"
+    directory: "src/dotnet-web-react-vite-template.Web/"
+  - package-ecosystem: "nuget"
+    directory: "tests/dotnet-web-react-vite-template.Web.Tests/"
+schedule:
+  interval: "weekly"
