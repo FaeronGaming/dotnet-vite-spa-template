@@ -19,7 +19,13 @@ export default defineConfig({
   },
   plugins: [
     basicSsl(),
-    react()
+    react({
+      babel: {
+        plugins: [
+          ['babel-plugin-react-compiler', {}]
+        ],
+      },
+    })
   ],
 }) satisfies UserConfig;
 
